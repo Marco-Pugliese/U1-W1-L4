@@ -9,10 +9,14 @@ body {
 }
 #wrap {
   width: 450px;
-  margin: 0 25px;
-  height: 100vh;
-  /* background-color: rgba(165, 42, 42, 0.533); */
+
   margin: 0 auto;
+}
+main,
+aside {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 1px 6px 15px 0px rgba(0, 0, 0, 0.839);
 }
 header {
   text-align: center;
@@ -40,11 +44,7 @@ ul > li > i {
   font-size: 0.6em;
   margin: 0 3px;
 }
-main,
-aside {
-  background-color: white;
-  padding: 40px;
-}
+
 h1 {
   font-size: 2em;
   line-height: 1.5em;
@@ -74,8 +74,12 @@ ol {
 }
 .grey-box {
   background-color: rgb(209, 209, 209);
+
   border: 1px solid rgb(131, 130, 130);
   border-radius: 5px;
+}
+aside {
+  box-shadow: 1px 6px 15px 0px rgba(0, 0, 0, 0.839);
 }
 #tit {
   width: 100%;
@@ -111,10 +115,7 @@ a {
 #video {
   border-radius: 10%;
 }
-aside {
-  width: 80%;
-  margin: auto 0;
-}
+
 .grey-aside {
   background-color: gainsboro;
 }
@@ -168,7 +169,6 @@ div.grey-aside > span.right {
 }
 footer {
   margin: 50px 10px;
-
   color: white;
   text-align: center;
   background: linear-gradient(to bottom, rgb(0, 134, 149), rgb(1, 21, 35));
