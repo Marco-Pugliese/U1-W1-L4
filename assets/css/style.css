@@ -3,7 +3,7 @@ html {
   font-family: "Poppins", sans-serif;
 }
 body {
-  background: url(/assets/img/sfondo.png);
+  background: url(../img/sfondo.png);
   background-position: center;
   line-height: 1.4em;
 }
